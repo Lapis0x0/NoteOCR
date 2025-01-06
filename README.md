@@ -39,16 +39,8 @@ NoteOCR 是一个专门用于处理和优化手写笔记的 OCR 系统。它能�
    ```
 
 4. 配置环境变量：
-   创建 `.env` 文件并添加以下内容：
-   ```
-   DEEPSEEK_API_KEY=your_deepseek_api_key
-   DEEPSEEK_API_BASE_URL=your_deepseek_api_base_url
-   ALI_QWEN_VL_OCR_API_KEY=your_ali_qwen_vl_ocr_api_key
-   INPUT_DIR=input
-   OUTPUT_DIR=output
-   PDF_FILENAME=notes.pdf
-   TXT_FILENAME=notes.txt
-   ```
+   复制 `.env.example` 并重命名为 `.env` ，然后根据实际情况填写配置
+
 
 ## 使用方法
 
